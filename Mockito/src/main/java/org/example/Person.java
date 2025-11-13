@@ -26,6 +26,10 @@ public class Person {
         return birthdate;
     }
 
+    public LocalizationData getAddress() {
+        return address;
+    }
+
     public void addAddressData(LocalizationData localizationData){
         this.address = localizationData;
     }

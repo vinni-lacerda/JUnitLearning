@@ -20,4 +20,3 @@ public class ListTest {
         Assertions.assertEquals("B", letters.get(0));
     }
 }
-""
