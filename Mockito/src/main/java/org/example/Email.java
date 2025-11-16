@@ -5,9 +5,9 @@ import java.text.Format;
 public class Email {
     private String emailAddress;
     private String message;
-    private Format format;
+    private EmailFormat format;
 
-    public Email(String emailAddress, String message, Format format) {
+    public Email(String emailAddress, String message, EmailFormat format) {
         this.emailAddress = emailAddress;
         this.message = message;
         this.format = format;
@@ -21,7 +21,7 @@ public class Email {
         return message;
     }
 
-    public Format getFormat() {
+    public EmailFormat getFormat() {
         return format;
     }
 }
